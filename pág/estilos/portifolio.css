@@ -156,6 +156,9 @@ section {
     display: none;
 }
 
+#alinhar2 {
+    display: none;
+}
 /* Media Queries */
 
 @media (min-width: 992px) and (max-width: 1260px) {
@@ -574,42 +577,37 @@ section {
     }
 
     section {
-        width: 90vw;
-        height: auto;
-        margin: auto;
-        padding: 20px 0 0 0 ;
-        text-align: center;
+        display: none;
     }
 
-    #alinhar{
-        margin-top: 40px;
+    #alinhar2 {
+        display: block;
     }
     
-    #alinhar > h1 {   
+    #alinhar2 > h1 {   
         color: rgb(8, 8, 73);
         width: 90vw;
         margin: auto;
         margin-top: 60px;
+        margin-bottom: 20px;
         font-size: 2rem;
         padding: 10px;
         text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.445);
     }
     
-    #alinhar > p {
+    #alinhar2 > p {
         color: rgb(17, 17, 27);
         font-size: 1.1rem;
     }
     
     .sites {
-        width: 27vw;
+        width: 50vw;
         height: auto;
         background-color: rgba(17, 17, 27, 0);
-        margin: auto;
-        display: inline-block;
-
+        display: block;
         border: none;
-        margin: 3px;
-        margin-bottom: 2px;
+        margin: auto;
+        margin-bottom: 10px;
     }
     
     .sites > h3 {
@@ -620,12 +618,11 @@ section {
     }
     
     .sites  img {
-        width: 100px;
-        height: 100px;
-        margin-right: 500px;
+        width: 150px;
+        height: 150px;
+
+
         border-radius: 0;
-        margin: auto;
-        margin: 8px;
         box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.452);
         transition-duration: .3s;
         box-sizing: border-box;
@@ -636,7 +633,7 @@ section {
         color: rgb(15, 41, 88);
         width: auto;
         margin: auto;
-        font-size: 10px;
+        font-size: 15px;
         font-weight: 500;
         box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.397);
         border: none;
