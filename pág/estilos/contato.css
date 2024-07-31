@@ -1,0 +1,320 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(/imagens/Contato.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    background-color: rgb(17, 17, 27);
+}
+
+header {
+    background-color: rgb(17, 17, 27);
+    color: rgb(199, 199, 199);
+    width: 18vw;
+    height: 90vh;
+    padding:30px;
+    float: left;
+}
+
+header  #perfil2 {
+    width: 120px;
+    height: 120px;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(62, 62, 99);
+}
+
+header > h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#redes {
+    display: none;
+    margin-left: 40px;
+}
+
+#redes  img {
+    width: 30px;
+    margin: 4px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(160, 160, 160, 0.24);
+    border: none;
+    transition-duration: .3s;
+    box-sizing: border-box;
+}
+
+#redes  img:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
+}
+
+#me {
+    margin-top: 50px;
+}
+
+#me > a {
+    color: rgb(168, 168, 168);
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 400;
+
+    display: block;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+
+#me > a:hover {
+    color: rgb(218, 216, 216);
+    text-shadow: 2px 2px 5px rgba(109, 109, 109, 0.432);
+}
+
+.icon-space {
+    margin-right: 8px;
+}
+
+section {
+/*    background-image: url(/imagens/Contato.jpg); */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 98vw;
+    height: 95vh;
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+
+main {
+    width: 1000px;
+    margin-top: 0px;
+    margin-left: 300px;
+
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main > h1 {
+    color: rgba(99, 134, 199, 0.733);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px rgba(61, 61, 61, 0.637);
+}
+
+main > p {
+    background-color: rgba(0, 0, 0, 0.322);
+    color: rgb(153, 153, 153);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.041);
+}
+
+.mail {
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+.sociais {
+    padding: 10px;
+    margin-top: 0px; 
+    margin-left: 1250px
+}
+
+.sociais img {
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px 0px 10px 0px ;
+    display: block;
+
+    transition-duration: .3s;
+    box-sizing: border-box;
+}
+
+.sociais img:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
+}
+
+/* Media Queries */
+
+@media (min-width: 992px) and (max-width: 1260px) {
+    /* Estilos para telas de notebook */
+    header {
+        background-color: rgb(17, 17, 27);
+        color: rgb(199, 199, 199);
+        width: 19vw;
+        height: 90vh;
+        padding:10px;
+        float: left;
+    }
+    
+    header  #perfil2 {
+        width: 100px;
+        height: 100px;
+        margin-left: 40px;
+        border-radius: 50%;
+        border: 5px solid rgb(62, 62, 99);
+    }
+    
+    header > h3 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    
+    #redes {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    #redes  img {
+        width: 25px;
+        margin: 4px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(160, 160, 160, 0.24);
+        border: none;
+        transition-duration: .3s;
+        box-sizing: border-box;
+    }
+    
+    #me {
+        margin-top: 30px;
+        padding: 10px;
+    }
+    
+    #me > a {
+        color: rgb(168, 168, 168);
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: 400;
+    
+        display: block;
+        text-decoration: none;
+        transition-duration: .3s;
+    }
+    
+    .icon-space {
+        margin-right: 8px;
+    }
+    
+  }
+
+  
+@media (min-width: 760px) and (max-width: 991px) {
+    /* Estilos para telas de tablet */
+    header {
+        background-color: rgb(17, 17, 27);
+        color: rgb(199, 199, 199);
+        width: 27vw;
+        height: 90vh;
+        padding:10px;
+        float: left;
+    }
+    
+    header  #perfil2 {
+        width: 100px;
+        height: 100px;
+        margin-left: 40px;
+        border-radius: 50%;
+        border: 5px solid rgb(62, 62, 99);
+    }
+    
+    header > h3 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    
+    #me {
+        margin-top: 30px;
+        padding: 10px;
+    }
+    
+    #me > a {
+        color: rgb(168, 168, 168);
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: 400;
+    
+        display: block;
+        text-decoration: none;
+        transition-duration: .3s;
+    }
+
+    .icon-space {
+        margin-right: 8px;
+    }
+
+  }
+
+  @media (max-width: 425px) {
+    header {
+        background-color: rgb(17, 17, 27);
+        color: rgb(199, 199, 199);
+        width: 45vw;
+        height: 90vh;
+        padding:10px;
+        float: left;
+    }
+    
+    header  #perfil2 {
+        width: 100px;
+        height: 100px;
+        margin-left: 40px;
+        border-radius: 50%;
+        border: 5px solid rgb(62, 62, 99);
+    }
+    
+    header > h3 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    
+    #redes {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    #redes  img {
+        width: 25px;
+        margin: 4px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(160, 160, 160, 0.24);
+        border: none;
+        transition-duration: .3s;
+        box-sizing: border-box;
+    }
+    
+    #redes  img:hover {
+        transform: translate(-1px, -1px);
+        box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
+    }
+    
+    #me {
+        margin-top: 30px;
+        padding: 10px;
+    }
+    
+    #me > a {
+        color: rgb(168, 168, 168);
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: 400;
+    
+        display: block;
+        text-decoration: none;
+        transition-duration: .3s;
+    }
+    
+    #me > a:hover {
+        color: rgb(218, 216, 216);
+        text-shadow: 2px 2px 5px rgba(109, 109, 109, 0.432);
+    }
+    
+    .icon-space {
+        margin-right: 8px;
+    }
+
+  }

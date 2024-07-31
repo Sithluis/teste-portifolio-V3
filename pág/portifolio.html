@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portifólio</title>    
+    <link rel="stylesheet" href="../bot/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos/portifolio.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+</head>
+
+<script src="../JavaScript/mobileMenu.js" defer></script>
+<body>
+
+    <header>
+        <button class="hamburguer" id="hamburguerButton">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <div id="perfil"><img id="perfil2" src="../imagens/Luis.png" alt="imagem teste Perfil"></div>
+        <h3>Luis Araújo</h3>
+
+        <nav id="redes">
+            <a href="https://www.instagram.com/sith_luis/" target="_blank"><img src="../imagens/instagramP.jpg" alt="instagram"></a>
+            <a href="https://www.facebook.com/luiscarlos.araujodapaixao/" target="_blank"><img src="../imagens/facebookP.png" alt="facebook"></a>
+            <a href="https://github.com/Sithluis" target="_blank"><img src="../imagens/githubP.jpg" alt="github"></a>
+            <a href="https://www.linkedin.com/in/luis-carlos-ara%C3%BAjo-74aa1b28a/" target="_blank"><img src="../imagens/linkedinP.jpg" alt="linkedin"></a>
+
+        </nav>
+
+        <nav id="me">
+            <a href="../index.html"><i class="fa-solid fa-house icon-space" ></i>Home</a>
+            <a href="Eu.html"><i class="fa-solid fa-user icon-space"></i>Eu</a>
+            <a href="resumo.html"><i class="fa-solid fa-file icon-space"></i>Resumo</a>
+            <a href="#top"><i class="fa-solid fa-address-book icon-space"></i>Portifólio</a>
+            <a href="serviços.html"><i class="fa-solid fa-bell-concierge icon-space"></i>Serviços</a>
+            <a href="contato.html"><i class="fa-solid fa-envelope icon-space"></i>Contato</a>
+        </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <button class="close" id="closeButton">
+            <i class="fas fa-times"></i>
+        </button>
+
+            <div id="perfil-mobile"><img id="perfil2-mobile" src="../imagens/Luis.png" alt="imagem teste Perfil"></div>
+            <h3>Luis Araújo</h3>
+
+
+
+        <nav id="redes-mobile">
+            <a href="https://www.instagram.com/sith_luis/" target="_blank"><img src="../imagens/instagramP.jpg" alt="instagram"></a>
+            <a href="https://www.facebook.com/luiscarlos.araujodapaixao/" target="_blank"><img src="../imagens/facebookP.png" alt="facebook"></a>
+            <a href="https://github.com/Sithluis" target="_blank"><img src="../imagens/githubP.jpg" alt="github"></a>
+            <a href="https://www.linkedin.com/in/luis-carlos-ara%C3%BAjo-74aa1b28a/" target="_blank"><img src="../imagens/linkedinP.jpg" alt="linkedin"></a>
+
+        </nav>
+
+        <nav id="me-mobile">
+            <a href="../index.html"><i class="fa-solid fa-house icon-space" ></i>Home</a>
+            <a href="Eu.html"><i class="fa-solid fa-user icon-space"></i>Eu</a>
+            <a href="resumo.html"><i class="fa-solid fa-file icon-space"></i>Resumo</a>
+            <a href="#top"><i class="fa-solid fa-address-book icon-space"></i>Portifólio</a>
+            <a href="serviços.html"><i class="fa-solid fa-bell-concierge icon-space"></i>Serviços</a>
+            <a href="contato.html"><i class="fa-solid fa-envelope icon-space"></i>Contato</a>
+        </nav>
+
+    </div>
+        
+    </header>
+
+    <section>
+        <main id="alinhar">
+            <h1>Sites/Projetos Criados</h1>
+        <div id="linha1">
+            <div class="sites">
+                <a href=""><img src="../imagens/saudeFundo.png" alt="saco de pancadas"></a>
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-calistenia">Informações</a>
+            </div>
+
+            <div class="sites">
+                <a href="../imagens/android.png"><img src="../imagens/android.png" alt="Android"></a>
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-android">Informações</a>
+            </div>
+
+            <div class="sites">
+                <a href=""><img src="../imagens/pctela.png" alt=""></a>
+                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-curso">Informações</a>
+            </div>
+        </div>
+
+        <div id="linha2">
+            <div class="sites">
+                <a href=""><img src="../imagens/CC.jpg" alt=""></a>
+                <a  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-intimo">Informações</a>
+            </div>
+
+            <div class="sites">
+                <a href=""><img src="../imagens/Roupas.png" alt=""></a>
+                <a  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-roupas">Informações</a>
+            </div>
+
+            <div class="sites">
+                <a href=""><img src="../imagens/crodel.png" alt=""></a>
+                <a  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-cordel">Informações</a>
+            </div>
+        </div>
+        </main>
+    </section>
+
+    <div class="modal fade" id="modal-cordel">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                   <h5 class="modal-title">Cordel</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <h4>Site Com Efeito Paralax</h4>
+                        <p>Um site com um cordel, porém aqui testo minhas habilidades com css e imagens, criando uma efeito Paralax.</p>
+                        <p>Veja mais clicando no link abaixo:</p>
+                        <a href="">Ver Site</a>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-roupas">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                   <h5 class="modal-title">Roupas</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <h4>E se uma pequena loja local criasse um site?</h4>
+                        <p>Baseado nessa ideia aqui ta uma loja que possui um site e atende por instagram e Whatsapp. Tem versão mobile, modo escuro e muito...</p>
+                        <p>Veja mais clicando no link abaixo:</p>
+                        <a href="">Ver Site</a>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-intimo">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                   <h5 class="modal-title">Charme Íntimo</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <h4>Site de Interativo, Roupas Íntima Feminina</h4>
+                        <p>Aqui eu apliquei minhas habilidades e aprendizado com a mecanica bootstrap, é uma mão na roda qunado se trata de estilos com css. Não se preocupe, fiz um curso completo de css antes de aproveitar as mecânicas do css.</p>
+                        <p>Veja mais clicando no link abaixo:</p>
+                        <a href="">Ver Site</a>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-curso">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                   <h5 class="modal-title">Curso online</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <h4>Quer lançar uma landing page de um Curso?</h4>
+                        <p>Aqui está o site perfeito para vender um curso. Prático, leve, responsivo e informativo.</p>
+                        <p>Veja mais clicando no link abaixo:</p>
+                        <a href="">Ver Site</a>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-android">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                   <h5 class="modal-title">Android</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <h4>Um site sobre o Mascote da Android</h4>
+                        <p>No final de um dos módulos do primeiro curso de html e css3 que fiz tive esse resultado, tem qualidade sim, mais o tanto que aprendi sobre html e css3 faz esse site parecer simples, mais ainda tem seu valor e pelo crapicho e dedicação que fiz ele merece estar aqui.</p>
+                        <p>Veja mais clicando no link abaixo:</p>
+                        <a href="">Ver Site</a>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modal-calistenia">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                   <h5 class="modal-title">Calistenia</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <h4>Site sobre calistenia e saúde</h4>
+                        <p>desde o começo dos meus estudos eu venho criando um projeto pessoal que testa minhas habilidades em html, css e js. Passou por várias versões e atualmente está na versão 3.0, não sofre atualização desde o último curso que de JavaScript que fiz.</p>
+                        <p>Veja mais clicando no link abaixo:</p>
+                        <a href="">Ver Site</a>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="../bot/js/bootstrap.min.js"></script>
+</body>
+</html>

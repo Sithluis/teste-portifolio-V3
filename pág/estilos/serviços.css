@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(17, 17, 27);
+}
+
+header {
+    background-color: rgb(17, 17, 27);
+    color: rgb(199, 199, 199);
+    width: 18vw;
+    height: 90vh;
+    padding:20px;
+    float: left;
+}
+
+header  #perfil2 {
+    width: 120px;
+    height: 120px;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(62, 62, 99);
+}
+
+header > h3 {
+    text-align: center;
+}
+
+#redes {
+    margin-left: 40px;
+}
+
+#redes  img {
+    width: 30px;
+    margin: 4px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(160, 160, 160, 0.24);
+    border: none;
+    transition-duration: .3s;
+    box-sizing: border-box;
+}
+
+#redes  img:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
+}
+
+#me {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#me > a {
+    color: rgb(168, 168, 168);
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 400;
+
+    display: block;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+
+#me > a:hover {
+    color: rgb(218, 216, 216);
+    text-shadow: 2px 2px 5px rgba(109, 109, 109, 0.432);
+}
+
+.icon-space {
+    margin-right: 8px;
+}
+
+section {
+    background-color: rgb(206, 206, 206);
+    background-image: url(../imagens/backG.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 98vw;
+    height: 95vh;
+    text-align: center;
+}
+
+#alinhar {
+
+}
+
+#alinhar > h1 {   
+    color: rgb(17, 17, 27);
+    font-size: 2.7rem;
+
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
+}
+
+#alinhar > p {
+    color: rgb(17, 17, 27);
+    font-size: 1.5rem;
+}
+
+@media (min-width: 992px) and (max-width: 1260px) {
+
+    /* Estilos para telas de notebook */
+    header {
+        background-color: rgb(17, 17, 27);
+        color: rgb(199, 199, 199);
+        width: 19vw;
+        height: 90vh;
+        padding:10px;
+        float: left;
+    }
+    
+    header  #perfil2 {
+        width: 100px;
+        height: 100px;
+        margin-left: 40px;
+        border-radius: 50%;
+        border: 5px solid rgb(62, 62, 99);
+    }
+    
+    header > h3 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    
+    #redes {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    #redes  img {
+        width: 25px;
+        margin: 4px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(160, 160, 160, 0.24);
+        border: none;
+        transition-duration: .3s;
+        box-sizing: border-box;
+    }
+    
+    #redes  img:hover {
+        transform: translate(-1px, -1px);
+        box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
+    }
+    
+    #me {
+        margin-top: 30px;
+        padding: 10px;
+    }
+    
+    #me > a {
+        color: rgb(168, 168, 168);
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: 400;
+    
+        display: block;
+        text-decoration: none;
+        transition-duration: .3s;
+    }
+    
+    #me > a:hover {
+        color: rgb(218, 216, 216);
+        text-shadow: 2px 2px 5px rgba(109, 109, 109, 0.432);
+    }
+    
+    .icon-space {
+        margin-right: 8px;
+    }
+
+}
+
+@media (min-width: 760px) and (max-width: 991px) {
+
+    /* Estilos para telas de tablet */
+    header {
+        background-color: rgb(17, 17, 27);
+        color: rgb(199, 199, 199);
+        width: 27vw;
+        height: 90vh;
+        padding:10px;
+        float: left;
+    }
+    
+    header  #perfil2 {
+        width: 100px;
+        height: 100px;
+        margin-left: 40px;
+        border-radius: 50%;
+        border: 5px solid rgb(62, 62, 99);
+    }
+    
+    header > h3 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    
+    #redes {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    #redes  img {
+        width: 25px;
+        margin: 4px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(160, 160, 160, 0.24);
+        border: none;
+        transition-duration: .3s;
+        box-sizing: border-box;
+    }
+    
+    #redes  img:hover {
+        transform: translate(-1px, -1px);
+        box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
+    }
+    
+    #me {
+        margin-top: 30px;
+        padding: 10px;
+    }
+    
+    #me > a {
+        color: rgb(168, 168, 168);
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: 400;
+    
+        display: block;
+        text-decoration: none;
+        transition-duration: .3s;
+    }
+    
+    #me > a:hover {
+        color: rgb(218, 216, 216);
+        text-shadow: 2px 2px 5px rgba(109, 109, 109, 0.432);
+    }
+    
+    .icon-space {
+        margin-right: 8px;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+
+
+}

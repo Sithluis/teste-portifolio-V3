@@ -1,0 +1,463 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(17, 17, 27);
+}
+
+header {
+    background-color: rgb(17, 17, 27);
+    color: rgb(199, 199, 199);
+    width: 18vw;
+    height: 90vh;
+    padding:30px;
+    float: left;
+}
+
+header  #perfil2 {
+    width: 120px;
+    height: 120px;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(62, 62, 99);
+}
+
+header > h3 {
+    text-align: center;
+}
+
+#redes {
+    margin-left: 40px;
+}
+
+#redes  img {
+    width: 30px;
+    margin: 4px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(160, 160, 160, 0.24);
+    border: none;
+    transition-duration: .3s;
+    box-sizing: border-box;
+}
+
+#redes  img:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
+}
+
+#me {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#me > a {
+    color: rgb(168, 168, 168);
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 400;
+
+    display: block;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+
+#me > a:hover {
+    color: rgb(218, 216, 216);
+    text-shadow: 2px 2px 5px rgba(109, 109, 109, 0.432);
+}
+
+.icon-space {
+    margin-right: 8px;
+}
+
+section {
+    background-color: rgb(17, 17, 27);
+    background-image: url(../imagens/teste00.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 98vw;
+    height: 95vh;
+    text-align: center;
+}
+
+#alinhar {
+    float: left;
+    width: 500px;
+    margin-top: 210px;
+    margin-left: 100px;
+    padding: 30px;
+    text-align: center;
+}
+
+#alinhar > h1 {   
+    background-color: rgba(52, 52, 70, 0.240);
+    color: rgb(177, 176, 176);
+    text-shadow: 3px 3px 7px rgba(54, 54, 54, 0.226);
+    width: 400px;
+
+    margin: auto;
+    margin-top: 50px;
+    font-size: 2.7rem;
+    border-radius: 10px 10px 0 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
+}
+
+#alinhar > p {
+    background-color: rgba(52, 52, 70, 0.240);
+    color: rgb(197, 197, 209);
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.445);
+
+    padding: 10px;
+    width: 382px;
+    margin: auto;
+    border-radius: 0 0 10px 10px ;
+    font-size: 1.5rem;
+}
+
+/* Media Queries */
+
+@media (min-width: 992px) and (max-width: 1260px) {
+    /* Estilos para telas de notebook */
+    header {
+        background-color: rgb(17, 17, 27);
+        color: rgb(199, 199, 199);
+        width: 19vw;
+        height: 90vh;
+        padding:10px;
+        float: left;
+    }
+    
+    header  #perfil2 {
+        width: 100px;
+        height: 100px;
+        margin-left: 40px;
+        border-radius: 50%;
+        border: 5px solid rgb(62, 62, 99);
+    }
+    
+    header > h3 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    
+    #redes {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    #redes  img {
+        width: 25px;
+        margin: 4px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(160, 160, 160, 0.24);
+        border: none;
+        transition-duration: .3s;
+        box-sizing: border-box;
+    }
+    
+    #redes  img:hover {
+        transform: translate(-1px, -1px);
+        box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
+    }
+    
+    #me {
+        margin-top: 30px;
+        padding: 10px;
+    }
+    
+    #me > a {
+        color: rgb(168, 168, 168);
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: 400;
+    
+        display: block;
+        text-decoration: none;
+        transition-duration: .3s;
+    }
+    
+    #me > a:hover {
+        color: rgb(218, 216, 216);
+        text-shadow: 2px 2px 5px rgba(109, 109, 109, 0.432);
+    }
+    
+    .icon-space {
+        margin-right: 8px;
+    }
+
+    section {
+        width: 90vw;
+        height: 82vh;
+        margin: auto;
+        padding: 20px 0 0 0 ;
+        text-align: center;
+    }
+    
+    #alinhar > h1 {   
+        color: rgb(8, 8, 73);
+        margin: auto;
+        font-size: 2.5rem;
+        padding: 10px;
+        text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.445);
+    }
+    
+    #alinhar > p {
+        color: rgb(17, 17, 27);
+        font-size: 1.1rem;
+    }
+    
+    .sites {
+        width: 15vw;
+        background-color: rgba(17, 17, 27, 0.514);
+        margin: auto;
+        display: inline-block;
+    
+        border: 2px solid black;
+        margin: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .sites > h3 {
+        color: rgb(185, 185, 197);
+        font-size: 1.2rem;
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+    .sites  img {
+        width: 90px;
+        height: 100px;
+        margin-right: 500px;
+        margin: auto;
+        border-radius: 15px;
+        box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.452);
+        transition-duration: .3s;
+        box-sizing: border-box;
+    }
+
+    .btn-primary {
+        background-color: rgba(206, 197, 197, 0.658);
+        color: rgb(15, 41, 88);
+        font-size: 13px;
+        font-weight: 500;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.397);
+        border: none;
+        transition-duration: .3s;
+    }
+    
+    .btn-primary:hover {
+        color: rgb(15, 41, 88);
+        background-color: rgb(206, 197, 197);
+        box-shadow: 3px 3px 8px rgba(65, 65, 65, 0.829);
+    }
+    
+  }
+
+  
+@media (min-width: 760px) and (max-width: 991px) {
+    /* Estilos para telas de tablet */
+    header {
+        background-color: rgb(17, 17, 27);
+        color: rgb(199, 199, 199);
+        width: 27vw;
+        height: 90vh;
+        padding:10px;
+        float: left;
+    }
+    
+    header  #perfil2 {
+        width: 100px;
+        height: 100px;
+        margin-left: 40px;
+        border-radius: 50%;
+        border: 5px solid rgb(62, 62, 99);
+    }
+    
+    header > h3 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    
+    #redes {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    #redes  img {
+        width: 25px;
+        margin: 4px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(160, 160, 160, 0.24);
+        border: none;
+        transition-duration: .3s;
+        box-sizing: border-box;
+    }
+    
+    #redes  img:hover {
+        transform: translate(-1px, -1px);
+        box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
+    }
+    
+    #me {
+        margin-top: 30px;
+        padding: 10px;
+    }
+    
+    #me > a {
+        color: rgb(168, 168, 168);
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: 400;
+    
+        display: block;
+        text-decoration: none;
+        transition-duration: .3s;
+    }
+    
+    #me > a:hover {
+        color: rgb(218, 216, 216);
+        text-shadow: 2px 2px 5px rgba(109, 109, 109, 0.432);
+    }
+    
+    .icon-space {
+        margin-right: 8px;
+    }
+
+    section {
+        width: 90vw;
+        height: 82vh;
+        margin: auto;
+        padding: 20px 0 0 0 ;
+        text-align: center;
+    }
+    
+    #alinhar > h1 {   
+        color: rgb(8, 8, 73);
+        margin: auto;
+        font-size: 2.5rem;
+        padding: 10px;
+        text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.445);
+    }
+    
+    #alinhar > p {
+        color: rgb(17, 17, 27);
+        font-size: 1.1rem;
+    }
+    
+    .sites {
+        width: 15vw;
+        background-color: rgba(17, 17, 27, 0.514);
+        margin: auto;
+        display: inline-block;
+    
+        border: 2px solid black;
+        margin: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .sites > h3 {
+        color: rgb(185, 185, 197);
+        font-size: 1.2rem;
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+    .sites  img {
+        width: 90px;
+        height: 100px;
+        margin-right: 500px;
+        margin: auto;
+        border-radius: 15px;
+        box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.452);
+        transition-duration: .3s;
+        box-sizing: border-box;
+    }
+
+    .btn-primary {
+        background-color: rgba(206, 197, 197, 0.658);
+        color: rgb(15, 41, 88);
+        font-size: 13px;
+        font-weight: 500;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.397);
+        border: none;
+        transition-duration: .3s;
+    }
+    
+    .btn-primary:hover {
+        color: rgb(15, 41, 88);
+        background-color: rgb(206, 197, 197);
+        box-shadow: 3px 3px 8px rgba(65, 65, 65, 0.829);
+    }
+
+  }
+
+  @media (max-width: 425px) {
+    header {
+        background-color: rgb(17, 17, 27);
+        color: rgb(199, 199, 199);
+        width: 45vw;
+        height: 90vh;
+        padding:10px;
+        float: left;
+    }
+    
+    header  #perfil2 {
+        width: 100px;
+        height: 100px;
+        margin-left: 40px;
+        border-radius: 50%;
+        border: 5px solid rgb(62, 62, 99);
+    }
+    
+    header > h3 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    
+    #redes {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    #redes  img {
+        width: 25px;
+        margin: 4px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(160, 160, 160, 0.24);
+        border: none;
+        transition-duration: .3s;
+        box-sizing: border-box;
+    }
+    
+    #redes  img:hover {
+        transform: translate(-1px, -1px);
+        box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
+    }
+    
+    #me {
+        margin-top: 30px;
+        padding: 10px;
+    }
+    
+    #me > a {
+        color: rgb(168, 168, 168);
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: 400;
+    
+        display: block;
+        text-decoration: none;
+        transition-duration: .3s;
+    }
+    
+    #me > a:hover {
+        color: rgb(218, 216, 216);
+        text-shadow: 2px 2px 5px rgba(109, 109, 109, 0.432);
+    }
+    
+    .icon-space {
+        margin-right: 8px;
+    }
+
+  }

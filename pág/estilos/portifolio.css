@@ -1,0 +1,647 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(/imagens/fundo0.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: rgb(17, 17, 27);
+    color: rgb(199, 199, 199);
+    width: 18vw;
+    height: 100vh;
+    padding:10px;
+    float: left;
+}
+
+header  #perfil2 {
+    width: 120px;
+    height: 120px;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(62, 62, 99);
+}
+
+header > h3 {
+    text-align: center;
+}
+
+#redes {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#redes  img {
+    width: 30px;
+    margin: 4px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(160, 160, 160, 0.24);
+    border: none;
+    transition-duration: .3s;
+    box-sizing: border-box;
+}
+
+#redes  img:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
+}
+
+#me {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+#me > a {
+    color: rgb(168, 168, 168);
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 400;
+
+    display: block;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+
+#me > a:hover {
+    color: rgb(218, 216, 216);
+    text-shadow: 2px 2px 5px rgba(109, 109, 109, 0.432);
+}
+
+.icon-space {
+    margin-right: 8px;
+}
+
+section {
+    width: 98vw;
+    height: 95vh;
+    padding: 20px 0 0 0 ;
+    text-align: center;
+}
+
+#alinhar {
+    
+
+}
+
+#alinhar > h1 {   
+    color: rgb(8, 8, 73);
+    margin: auto;
+    font-size: 2.7rem;
+    padding: 10px;
+    text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.445);
+}
+
+#alinhar > p {
+    color: rgb(17, 17, 27);
+    font-size: 1.5rem;
+}
+
+.sites {
+    width: 15vw;
+    background-color: rgba(17, 17, 27, 0.514);
+    margin: auto;
+    display: inline-block;
+
+    border: 2px solid black;
+    margin: 3px;
+    margin-bottom: 2px;
+}
+
+.sites > h3 {
+    color: rgb(185, 185, 197);
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.sites  img {
+    width: 130px;
+    height: 150px;
+    margin-right: 500px;
+    margin: auto;
+    margin: 5px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.452);
+    transition-duration: .3s;
+    box-sizing: border-box;
+}
+
+.sites  img:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
+}
+
+.sites > a{
+    margin: 5px;
+}
+
+.btn-primary {
+    background-color: rgba(206, 197, 197, 0.658);
+    color: rgb(15, 41, 88);
+    font-weight: 500;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.397);
+    border: none;
+    transition-duration: .3s;
+}
+
+.btn-primary:hover {
+    color: rgb(15, 41, 88);
+    background-color: rgb(206, 197, 197);
+    box-shadow: 3px 3px 8px rgba(65, 65, 65, 0.829);
+}
+
+.mobile-menu, .close, .hamburguer {
+    display: none;
+}
+
+/* Media Queries */
+
+@media (min-width: 992px) and (max-width: 1260px) {
+    /* Estilos para telas de notebook */
+    header {
+        background-color: rgb(17, 17, 27);
+        color: rgb(199, 199, 199);
+        width: 19vw;
+        height: 90vh;
+        padding:10px;
+        float: left;
+    }
+    
+    header  #perfil2 {
+        width: 100px;
+        height: 100px;
+        margin-left: 40px;
+        border-radius: 50%;
+        border: 5px solid rgb(62, 62, 99);
+    }
+    
+    header > h3 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    
+    #redes {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    #redes  img {
+        width: 25px;
+        margin: 4px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(160, 160, 160, 0.24);
+        border: none;
+        transition-duration: .3s;
+        box-sizing: border-box;
+    }
+    
+    #redes  img:hover {
+        transform: translate(-1px, -1px);
+        box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
+    }
+    
+    #me {
+        margin-top: 30px;
+        padding: 10px;
+    }
+    
+    #me > a {
+        color: rgb(168, 168, 168);
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: 400;
+    
+        display: block;
+        text-decoration: none;
+        transition-duration: .3s;
+    }
+    
+    #me > a:hover {
+        color: rgb(218, 216, 216);
+        text-shadow: 2px 2px 5px rgba(109, 109, 109, 0.432);
+    }
+    
+    .icon-space {
+        margin-right: 8px;
+    }
+
+    section {
+        width: 90vw;
+        height: 82vh;
+        margin: auto;
+        padding: 20px 0 0 0 ;
+        text-align: center;
+    }
+    
+    #alinhar {
+        margin-top: 80px;
+    }
+
+    #alinhar > h1 {   
+        color: rgb(8, 8, 73);
+        margin: auto;
+        font-size: 2.5rem;
+        padding: 10px;
+        text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.445);
+    }
+    
+    #alinhar > p {
+        color: rgb(17, 17, 27);
+        font-size: 1.1rem;
+    }
+    
+    .sites {
+        width: 15vw;
+        background-color: rgba(17, 17, 27, 0.514);
+        margin: auto;
+        display: inline-block;
+    
+        border: 2px solid black;
+        margin: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .sites > h3 {
+        color: rgb(185, 185, 197);
+        font-size: 1.2rem;
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+    .sites  img {
+        width: 90px;
+        height: 100px;
+        margin-right: 500px;
+        margin: auto;
+        margin: 5px;
+        border-radius: 15px;
+        box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.452);
+        transition-duration: .3s;
+        box-sizing: border-box;
+    }
+
+    .btn-primary {
+        background-color: rgba(206, 197, 197, 0.658);
+        color: rgb(15, 41, 88);
+        font-size: 13px;
+        font-weight: 500;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.397);
+        border: none;
+        transition-duration: .3s;
+    }
+    
+    .btn-primary:hover {
+        color: rgb(15, 41, 88);
+        background-color: rgb(206, 197, 197);
+        box-shadow: 3px 3px 8px rgba(65, 65, 65, 0.829);
+    }
+    
+  }
+
+  
+@media (min-width: 760px) and (max-width: 991px) {
+    /* Estilos para telas de tablet */
+    header {
+        background-color: rgb(17, 17, 27);
+        color: rgb(199, 199, 199);
+        width: 27vw;
+        height: 90vh;
+        padding:10px;
+        float: left;
+    }
+    
+    header  #perfil2 {
+        width: 100px;
+        height: 100px;
+        margin-left: 40px;
+        border-radius: 50%;
+        border: 5px solid rgb(62, 62, 99);
+    }
+    
+    header > h3 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    
+    #redes {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    #redes  img {
+        width: 25px;
+        margin: 4px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(160, 160, 160, 0.24);
+        border: none;
+        transition-duration: .3s;
+        box-sizing: border-box;
+    }
+    
+    #redes  img:hover {
+        transform: translate(-1px, -1px);
+        box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
+    }
+    
+    #me {
+        margin-top: 30px;
+        padding: 10px;
+    }
+    
+    #me > a {
+        color: rgb(168, 168, 168);
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: 400;
+    
+        display: block;
+        text-decoration: none;
+        transition-duration: .3s;
+    }
+    
+    #me > a:hover {
+        color: rgb(218, 216, 216);
+        text-shadow: 2px 2px 5px rgba(109, 109, 109, 0.432);
+    }
+    
+    .icon-space {
+        margin-right: 8px;
+    }
+
+    section {
+        width: 90vw;
+        height: 82vh;
+        margin: auto;
+        padding: 20px 0 0 0 ;
+        text-align: center;
+    }
+    
+    #alinhar {
+        margin-top: 60px;
+    }
+
+    #alinhar > h1 {   
+        color: rgb(8, 8, 73);
+        margin: auto;
+        font-size: 2.5rem;
+        padding: 10px;
+        text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.445);
+    }
+    
+    #alinhar > p {
+        color: rgb(17, 17, 27);
+        font-size: 1.1rem;
+    }
+    
+    .sites {
+        width: 15vw;
+        background-color: rgba(17, 17, 27, 0.514);
+        margin: auto;
+        display: inline-block;
+        border: 2px solid black;
+        margin: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .sites > h3 {
+        color: rgb(185, 185, 197);
+        font-size: 1.2rem;
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+    .sites  img {
+        width: 90px;
+        height: 100px;
+        margin-right: 500px;
+        margin: auto;
+        margin: 5px;
+        border-radius: 15px;
+        box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.452);
+        transition-duration: .3s;
+        box-sizing: border-box;
+    }
+
+    .btn-primary {
+        background-color: rgba(206, 197, 197, 0.658);
+        color: rgb(15, 41, 88);
+        font-size: 13px;
+        font-weight: 500;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.397);
+        border: none;
+        transition-duration: .3s;
+    }
+    
+    .btn-primary:hover {
+        color: rgb(15, 41, 88);
+        background-color: rgb(206, 197, 197);
+        box-shadow: 3px 3px 8px rgba(65, 65, 65, 0.829);
+    }
+
+  }
+
+  @media (max-width: 425px) {
+    header {
+        background-color: rgb(17, 17, 27);
+        color: rgb(199, 199, 199);
+        width: 100%;
+        height: 10vh;
+        padding:10px;
+        position: fixed;
+        float: none;
+    }
+
+    .mobile-menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: auto;
+        background-color: rgba(17, 17, 27, 0.9);
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.1rem;
+        z-index: 5;
+    }
+    
+    .hamburguer {
+        margin: auto;
+    }
+
+    .hamburguer, .close {
+        font-size: 24px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #fff;
+        display: none;
+    }
+    
+    .close {
+        margin-top: 20px;
+        margin-left: 20px;
+        display: block;
+        align-self: end;
+    }
+    
+    .flex {
+        display: flex;
+    }    
+
+    #perfil2-mobile {
+        width: 110px;
+        height: 110px;
+        margin: auto;
+        border-radius: 50%;
+        border: 5px solid rgb(62, 62, 99);
+    }
+
+    .mobile-menu > h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    #redes-mobile {
+        margin-top: 0;
+        margin-left: 15px;
+    }
+    
+    #redes-mobile img {
+        width: 25px;
+        margin: 4px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(160, 160, 160, 0.24);
+        border: none;
+        transition-duration: .3s;
+        box-sizing: border-box;
+    }
+
+    #redes-mobile img:hover {
+        transform: translate(-1px, -1px);
+        box-shadow: 5px 5px 10px rgba(160, 160, 160, 0.5);
+    }
+
+    #me-mobile {
+        margin-top: 30px;
+        padding: 10px;
+    }
+    
+    #me-mobile > a {
+        color: rgb(168, 168, 168);
+        font-size: 18px;
+        margin-bottom: 20px;
+        font-weight: 400;
+    
+        display: block;
+        text-decoration: none;
+        transition-duration: .3s;
+    }
+    
+    #me-mobile > a:hover {
+        color: rgb(218, 216, 216);
+        text-shadow: 2px 2px 5px rgba(109, 109, 109, 0.432);
+    }
+
+    .hamburguer {
+        display: block;
+    }
+    
+    header  #perfil2 {
+        display: none;
+    }
+    
+    header > h3 {
+        display: none;
+    }
+    
+    #redes {
+        display: none;
+    }
+    
+    #redes  img {
+        display: none;
+    }
+    
+    #me {
+        display: none;
+    }
+    
+    .icon-space {
+        margin-right: 8px;
+    }
+
+    section {
+        width: 90vw;
+        height: auto;
+        margin: auto;
+        padding: 20px 0 0 0 ;
+        text-align: center;
+    }
+
+    #alinhar{
+        margin-top: 40px;
+    }
+    
+    #alinhar > h1 {   
+        color: rgb(8, 8, 73);
+        width: 90vw;
+        margin: auto;
+        margin-top: 60px;
+        font-size: 2rem;
+        padding: 10px;
+        text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.445);
+    }
+    
+    #alinhar > p {
+        color: rgb(17, 17, 27);
+        font-size: 1.1rem;
+    }
+    
+    .sites {
+        width: 27vw;
+        height: auto;
+        background-color: rgba(17, 17, 27, 0);
+        margin: auto;
+        display: inline-block;
+
+        border: none;
+        margin: 3px;
+        margin-bottom: 2px;
+    }
+    
+    .sites > h3 {
+        color: rgb(185, 185, 197);
+        font-size: 1rem;
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+    .sites  img {
+        width: 100px;
+        height: 100px;
+        margin-right: 500px;
+        border-radius: 0;
+        margin: auto;
+        margin: 8px;
+        box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.452);
+        transition-duration: .3s;
+        box-sizing: border-box;
+    }
+
+    .btn-primary {
+        background-color: rgba(206, 197, 197, 0.658);
+        color: rgb(15, 41, 88);
+        width: auto;
+        margin: auto;
+        font-size: 10px;
+        font-weight: 500;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.397);
+        border: none;
+        transition-duration: .3s;
+    }
+    
+
+  }
